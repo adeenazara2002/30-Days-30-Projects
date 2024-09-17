@@ -43,3 +43,20 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .5rem;
+    width: 70%;
+    height: 8rem;
+    align-items: center;
+    color: #fff;
+    background-color: #1a1a1a;
+    position: relative;
+    border-radius: 1rem;
+    font-size: 4rem;
+
+}
