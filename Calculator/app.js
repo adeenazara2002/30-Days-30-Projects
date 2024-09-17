@@ -19,8 +19,14 @@ for (let key of keys) {
         display_input.innerHTML = input;
      }else if (value == "=") {
         let result = eval(input);
-     }{
 
+        display_output.innerHTML = result;
+     }else if (value == "brackets") {
+        if (input.indexOf("(") == -1 ||
+        input.indexOf("(") != -1 && 
+        input.indexOf("(") < input.lastIndexOf(")")) {
+           input += "("; 
+        }
      }
   })
     
