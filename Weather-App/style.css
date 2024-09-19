@@ -84,6 +84,11 @@ body{
     margin: 40px 0;
 }
 
+.weather-box,
+.weather-details{
+    visibility: hidden;
+}
+
 .weather-box img{
    width: 60%;
 }
