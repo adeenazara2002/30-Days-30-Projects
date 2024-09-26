@@ -31,12 +31,44 @@ body{
     margin: 35px 0;
 }
 
-.content .quaote-area{
+.content .quote-area{
    display: flex;
    justify-content: center; 
 }
 
-.quaote-area .quote{
+.quote-area i{
+    font-size: 15px;
+}
+
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quote-area .quote{
     font-size: 22px;
     text-align: center;
+    word-break: break-all;
+}
+
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+
+.wrapper .buttons{
+   border-top: 1px solid #ccc;
+}
+
+.buttons .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
